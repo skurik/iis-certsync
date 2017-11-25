@@ -14,3 +14,7 @@ This script provides a simple workaround - whenever Let's Encrypt finishes its a
 3. Install NuGet packages required by the script:
 
     `scriptcs -install`
+    
+4. Try running the script (see explanation of the command line parameters below):
+
+    `scriptcs c:\SSL\scripts\update-web-farm-bindings.csx -- c:\SSL\scripts\log.txt MySite "*:443:www.mysite.com" "MySiteBlue|*:44301:www.mysite.com,MySiteGreen|*:44302:www.mysite.com"`
