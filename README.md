@@ -11,7 +11,7 @@ This script provides a simple workaround - whenever Let's Encrypt finishes its a
 
 1. Install [scriptcs](https://github.com/scriptcs)
 2. Download the __update-web-farm-bindings.csx__ script and __scriptcs_packages.config__
-3. Install NuGet packages required by the script:
+3. Install NuGet packages required by the script. Run the following command in the directory where the script is located:
 
         scriptcs -install
     
