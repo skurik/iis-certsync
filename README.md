@@ -13,15 +13,15 @@ This script provides a simple workaround - whenever Let's Encrypt finishes its a
 2. Download the __update-web-farm-bindings.csx__ script and __scriptcs_packages.config__
 3. Install NuGet packages required by the script:
 
-    `scriptcs -install`
+    scriptcs -install
     
 4. Try running the script (see explanation of the command line parameters below):
 
-    `scriptcs c:\SSL\scripts\update-web-farm-bindings.csx -- c:\SSL\scripts\log.txt MySite "*:443:www.mysite.com" "MySiteBlue|*:44301:www.mysite.com,MySiteGreen|*:44302:www.mysite.com"`
+    scriptcs c:\SSL\scripts\update-web-farm-bindings.csx -- c:\SSL\scripts\log.txt MySite "*:443:www.mysite.com" "MySiteBlue|*:44301:www.mysite.com,MySiteGreen|*:44302:www.mysite.com"
     
 The script is being called as follows:
 
-    `scriptcs <script-path> -- <log-path> <source-site> <source-site-binding> <list-of-targets>`
+    scriptcs <script-path> -- <log-path> <source-site> <source-site-binding> <list-of-targets>
     
 Where
 
